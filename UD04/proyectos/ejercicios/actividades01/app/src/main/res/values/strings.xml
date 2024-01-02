@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">actividades01</string>
+    <string name="name">Nombre</string>
+    <string name="greeting">saludar</string>
+    <string name="mail">Correo</string>
+    <string name="web">Web</string>
+    <string name="call">Llamada</string>
+    <string name="alarm">Alarma</string>
+    <string name="action">Ejecutar accion</string>
+    <string name="add">Sumar</string>
+    <string name="result">Resultado:</string>
+    <string name="morning">Buenos días</string>
+    <string name="random">Numeros aleatorios:</string>
+    <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjemploGuiado</string>
+    <string-array name="opciones">
+        <item>Sr.</item>
+        <item>Srto.</item>
+        <item>Sra.</item>
+        <item>Srta.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/subMenuAjustes"
+        android:title="Ajustes">
+        <menu> <!-- submenu -->
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- elementos del submenu -->
+            <item
+                android:id="@+id/itemConfFacturas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orderInCategory="3"
+                android:title="Configuración de facturas" />
+            <item
+                android:id="@+id/itemConfPedidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orderInCategory="2"
+                android:title="Configuración de pedidos" />
+            <item
+                android:id="@+id/itemConfClientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orderInCategory="1"
+                android:title="Configuración de clientes" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/itemAcercaDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Acerca de" />
+</menu>
