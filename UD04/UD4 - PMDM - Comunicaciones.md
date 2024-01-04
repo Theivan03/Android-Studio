@@ -1,5 +1,3 @@
-#  :iphone: Programación Multimedia y Dispositivos Móviles 2023/2024
-
 ## :books: UD04 - Programación en Android: Comunicaciones
 
 </br>
