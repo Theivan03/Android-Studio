@@ -1,5 +1,3 @@
-#  :iphone: Programación Multimedia y Dispositivos Móviles 2023/2024
-
 ## :books: UD03 - Programación en Android: Interfaz de usuario
 
 </br>
