@@ -34,19 +34,19 @@ public class MainActivity extends AppCompatActivity {
         rbtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                saludo = rbtn1.getText().toString();
+                saludo = "bUENOS DÍAS";
             }
         });
         rbtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                saludo = rbtn2.getText().toString();
+                saludo = "Buenas tardes";
             }
         });
         rbtn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                saludo = rbtn3.getText().toString();
+                saludo = "Buenas noches";
             }
         });
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (ckb1.isChecked())
-                    checkText = ckb1.getText().toString().toLowerCase();
+                    checkText = "Encantado de conocerte";
                 else
                     checkText = "";
             }

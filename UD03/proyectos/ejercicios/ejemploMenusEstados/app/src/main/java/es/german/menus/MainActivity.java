@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 txt.setText(txt.getText() + "1");
             }
         });
+
+        ImageView imagen = (ImageView) findViewById(R.id.imagen);
+        imagen.setImageResource(R.drawable.ivan);
     }
 
     @Override
